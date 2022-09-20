@@ -16,21 +16,7 @@
     filter: blur(4px);
 }
 
-.video-container video {
-    /* Make video to at least 100% wide and tall */
-    min-width: 100%;
-    min-height: 100%;
 
-    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-    width: auto;
-    height: auto;
-
-    /* Center the video */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 h2 {
     color: white;
@@ -53,15 +39,18 @@ iframe {
     z-index: -1;
     position: absolute;
     width: 100%;
-    height: 110%;
+    height: 100%;
 
 }
 
 #main_area {
-    margin-top: 5em;
+
     display: flex;
+    margin: auto;
+    margin-top: 2em;
     flex-direction: column;
     justify-content: center;
+    width: 40%;
 
 }
 
@@ -74,8 +63,6 @@ iframe {
 
 #musicaImagen {
     background-image: url("../resources/dry-leaves-wallpaper-4k.jpg");
-    margin: auto;
-    width: 42%;
     border-radius: 10%;
     padding: 20px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.415);
@@ -94,7 +81,7 @@ iframe {
 }
 
 #imgBkground {
-    margin-left: ;
+
     background-color: white;
     padding: 10px;
     border-radius: 18px;
