@@ -36,9 +36,13 @@
                 <div id="imgBkground">
                     <div id="imagenDia">
                         <!-- <img id="imagenDia" src="../resources/dia20.jpg"> -->
-                        <video autoplay loop muted>
+                        <video id="dailyVideoOptional" autoplay loop muted>
                             <source src="../resources/dia21.mp4" type="video/mp4">
                         </video>
+                        <script>
+                            let video = document.getElementById("dailyVideoOptional");
+                            video.playbackRate = 0.5;
+                        </script>
                     </div>
 
 
