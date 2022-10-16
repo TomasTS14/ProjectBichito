@@ -80,8 +80,8 @@ iframe {
 }
 
 #imagenDia video {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: 14em;
 }
 
 #imgBkground {
