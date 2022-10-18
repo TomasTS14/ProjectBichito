@@ -74,9 +74,8 @@ iframe {
     padding: 10px;
 }
 
-#imagenDia {
-    box-sizing: border-box;
-    max-width: 60%;
+#imagenDia img {
+    width: 10em;
 }
 
 #imagenDia video {
@@ -85,7 +84,7 @@ iframe {
 }
 
 #imgBkground {
-
+    box-sizing: border-box;
     background-color: white;
     padding: 10px;
     border-radius: 18px;
