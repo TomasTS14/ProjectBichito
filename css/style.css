@@ -81,6 +81,7 @@ iframe {
 #imagenDia video {
     width: auto;
     height: 14em;
+    max-width: 100%;
 }
 
 #imgBkground {
