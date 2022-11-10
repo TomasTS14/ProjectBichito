@@ -1,1 +1,1 @@
-window.alert("Se que es un día raro, pero no estás sola. Te amo.\n tu bicho");
+window.alert("Gracias por todo, te amo\n tu bicho");
