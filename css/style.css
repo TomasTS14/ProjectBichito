@@ -50,7 +50,7 @@ iframe {
     margin-top: 2em;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
+    width: 50%;
 
 }
 
@@ -74,8 +74,12 @@ iframe {
     padding: 10px;
 }
 
+#imagenDia {
+    width: 30%;
+}
+
 #imagenDia img {
-    width: 10em;
+    width: 100%;
 }
 
 #imagenDia video {
@@ -87,7 +91,7 @@ iframe {
 #imgBkground {
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     box-sizing: border-box;
     background-color: white;
