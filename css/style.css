@@ -1,7 +1,15 @@
 * {
     margin: 0px;
     padding: 0px;
+
 }
+
+body {
+    cursor: url("../resources/magic-wand_medium2.png"), auto;
+
+
+}
+
 
 .cubierta {
     background-color: rgba(0, 0, 0, 0.84);
@@ -61,7 +69,7 @@ iframe {
     margin-top: 1em;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 44%;
 
 
 }
@@ -92,7 +100,7 @@ iframe {
 }
 
 .mensaje_rana:hover {
-    cursor: pointer;
+    cursor: url("../resources/magic-wand_big.png"), auto;
 }
 
 @keyframes frog {
@@ -179,7 +187,7 @@ iframe {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     box-sizing: border-box;
     background-color: white;
     padding: 10px;
