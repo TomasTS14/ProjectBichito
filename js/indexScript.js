@@ -1,1 +1,1 @@
-window.alert("Te amo , como un sapito a una ranita\n tu bicho");
+window.alert("Quiero hacerme viejo de besito en besito \n tu bicho");
