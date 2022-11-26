@@ -74,6 +74,8 @@ iframe {
 
 .mensaje_rana {
     text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bolder;
     background-image: url("../resources/frog.png");
     background-size: 100%;
     background-repeat: no-repeat;
