@@ -3,6 +3,16 @@
     padding: 0px;
 }
 
+.cubierta {
+    background-color: rgba(0, 0, 0, 0.84);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    backdrop-filter: blur(4px);
+    top: 0px;
+}
+
 .video-wrapper {
     z-index: -1;
     position: absolute;
@@ -21,6 +31,7 @@
 h2 {
     color: white;
     font-family: cursive;
+    margin-bottom: 0.2em;
 
 }
 
@@ -47,10 +58,11 @@ iframe {
 
     display: flex;
     margin: auto;
-    margin-top: 2em;
+    margin-top: 1em;
     flex-direction: column;
     justify-content: center;
     width: 50%;
+
 
 }
 
@@ -58,6 +70,77 @@ iframe {
     display: inline-block;
     text-align: center;
 
+}
+
+.mensaje_rana {
+    text-align: center;
+    background-image: url("../resources/frog.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    height: 24em;
+    width: 24em;
+    margin-left: 35%;
+    margin-top: 10%;
+    z-index: 3;
+    animation-name: frog;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.mensaje_rana:hover {
+    cursor: pointer;
+}
+
+@keyframes frog {
+    0% {}
+
+    70% {
+        transform: scale(1.1);
+    }
+
+    100% {}
+}
+
+.desaparece {
+    display: none;
+}
+
+.mensaje_rana * {
+    position: relative;
+    top: 50%;
+}
+
+#icono_song {
+    background-image: url("../resources/song.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    height: 1.5em;
+    width: 1.5em;
+
+}
+
+#icono_imagen {
+    background-image: url("../resources/wedding-photos.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.icono_stars {
+    background-image: url("../resources/sparkles.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    height: 1.5em;
+    width: 1.5em;
 }
 
 

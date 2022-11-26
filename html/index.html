@@ -11,30 +11,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <script src="../js/indexScript.js"></script>
+    <script src="../js/indexScript.js" defer></script>
 </head>
 
 <body>
 
     <!--<img id="fondo" src="/resources/1663623401637.jpg">-->
     <div class="video-wrapper">
-        <video playsinline autoplay muted loop poster="cake.jpg">
+        <video playsinline autoplay muted loop >
             <source src="../resources/Pexels Videos 2435376.mp4" type="video/webm">
 
         </video>
     </div>
+    <div class="mensaje_rana"><p>Te amo infinito princesita</p></div>
     <div id="main_area">
-        <h1 id="titulo"> In the pursuit of bichito</h1>
+        <h1 id="titulo"><span class="icono_stars"></span> In the pursuit of bichito<span class="icono_stars"></span> </h1>
         <div id="musicaImagen">
             <div id="content_container">
-                <h2>Today's song:</h2>
+                <h2><span id="icono_song"></span> Today's song:</h2>
                 <iframe style="border-radius:12px"
                     src="https://open.spotify.com/embed/track/5GvCX8WNlOmu5eKzRofCC5?utm_source=generator" height="30%"
-                    width="80%" frameBorder="0" allowfullscreen=""
+                    width="80%" frameBorder="0" 
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                     loading="lazy"></iframe>
 
-                <h2>Today's picture:</h2>
+                <h2><span id="icono_imagen"></span> Today's picture:</h2>
                 <div id="imgBkground">
                     <div id="imagenDia">
                         <img src="../resources/dia28.jpg">
@@ -71,6 +72,7 @@
             </div>
         </div>
     </div>
+    <div class="cubierta"></div>
 </body>
 
 </html>
