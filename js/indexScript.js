@@ -10,3 +10,11 @@ rana.addEventListener("click", () => {
     cubierta.classList.remove("cubierta");
     cubierta.classList.add("desaparece");
 })
+
+// rana.addEventListener("focus", () => {
+//     rana.classList.add("desaparece");
+//     rana.classList.remove("mensaje_rana");
+
+//     cubierta.classList.remove("cubierta");
+//     cubierta.classList.add("desaparece");
+// })

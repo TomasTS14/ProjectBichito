@@ -193,3 +193,104 @@ iframe {
     padding: 10px;
     border-radius: 18px;
 }
+
+
+#desktop_container {
+    display: none;
+}
+
+#mobile_container {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .cubierta {
+        background-color: rgba(0, 0, 0, 0.84);
+        position: absolute;
+        width: 100%;
+        height: 500%;
+        z-index: 2;
+        backdrop-filter: blur(4px);
+        top: 0px;
+    }
+
+
+    #mobile_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    .mensaje_rana {
+        text-align: center;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: bolder;
+        background-image: url("../resources/frog.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 20%;
+        height: 60%;
+        width: 90%;
+        margin: auto;
+        z-index: 3;
+        animation-name: frog;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+
+    .content_container {
+        box-sizing: border-box;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        position: relative;
+        height: 100vh;
+        width: 95%;
+        align-items: center;
+
+    }
+
+    .content_container>div {
+
+        height: 60%;
+        border-radius: 10%;
+
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.415);
+    }
+
+    .video-wrapper {
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        max-width: 100%;
+        max-height: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+        filter: saturate(150%);
+        filter: blur(4px);
+    }
+
+    #titulo {
+        display: flex;
+        position: relative;
+        height: 100vh;
+        align-items: center;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 601px) {
+    #desktop_container {
+        display: block;
+    }
+}
