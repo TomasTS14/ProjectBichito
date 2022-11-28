@@ -1,232 +1,83 @@
-html {
-    scroll-behavior: smooth;
-    scroll-snap-type: proximity;
-}
+    * {
+        margin: 0px;
+        padding: 0px;
 
-* {
-    margin: 0px;
-    padding: 0px;
-
-}
-
-body {
-    cursor: url("../resources/magic-wand_medium2.png"), auto;
-
-
-}
-
-
-.cubierta {
-    background-color: rgba(0, 0, 0, 0.84);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    backdrop-filter: blur(4px);
-    top: 0px;
-}
-
-.video-wrapper {
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    filter: saturate(150%);
-    filter: blur(4px);
-}
-
-
-
-h2 {
-    color: white;
-    font-family: cursive;
-    margin-bottom: 0.2em;
-
-}
-
-iframe {
-    margin: 0px;
-}
-
-#titulo {
-    font-family: cursive;
-    color: white;
-    text-shadow: 2px 2px 10px rgb(0, 0, 0);
-}
-
-
-#fondo {
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-
-}
-
-#main_area {
-
-    display: flex;
-    margin: auto;
-    margin-top: 1em;
-    flex-direction: column;
-    justify-content: center;
-    width: 44%;
-
-
-}
-
-#titulo {
-    display: inline-block;
-    text-align: center;
-
-}
-
-.mensaje_rana {
-    text-align: center;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: bolder;
-    background-image: url("../resources/frog.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: inline-block;
-    position: absolute;
-    height: 24em;
-    width: 24em;
-    margin-left: 35%;
-    margin-top: 10%;
-    z-index: 3;
-    animation-name: frog;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-.mensaje_rana:hover {
-    cursor: url("../resources/magic-wand_big.png"), auto;
-}
-
-@keyframes frog {
-    0% {}
-
-    70% {
-        transform: scale(1.1);
     }
 
-    100% {}
-}
-
-.desaparece {
-    display: none;
-}
-
-.mensaje_rana * {
-    position: relative;
-    top: 50%;
-}
-
-#icono_song {
-    background-image: url("../resources/song.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: inline-block;
-    position: relative;
-    height: 1.5em;
-    width: 1.5em;
-
-}
-
-#icono_imagen {
-    background-image: url("../resources/wedding-photos.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: inline-block;
-    position: relative;
-    height: 1.5em;
-    width: 1.5em;
-}
-
-.icono_stars {
-    background-image: url("../resources/sparkles.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: inline-block;
-    position: relative;
-    height: 1.5em;
-    width: 1.5em;
-}
+    body {
+        cursor: url("../resources/magic-wand_medium2.png"), auto;
 
 
-#musicaImagen {
-    background-image: url("../resources/ezgif-1-0e7a3e1457.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10%;
-    padding: 20px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.415);
+    }
 
-}
-
-#content_container {
-
-    padding: 10px;
-}
-
-#imagenDia {
-    width: 30%;
-}
-
-#imagenDia img {
-    width: 100%;
-}
-
-#imagenDia video {
-    width: auto;
-    height: 14em;
-    max-width: 100%;
-}
-
-#imgBkground {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    box-sizing: border-box;
-    background-color: white;
-    padding: 10px;
-    border-radius: 18px;
-}
-
-
-#desktop_container {
-    display: none;
-}
-
-#mobile_container {
-    display: none;
-}
-
-@media only screen and (max-width: 600px) {
 
     .cubierta {
         background-color: rgba(0, 0, 0, 0.84);
         position: absolute;
         width: 100%;
-        height: 500%;
+        height: 100%;
         z-index: 2;
         backdrop-filter: blur(4px);
         top: 0px;
     }
 
-
-    #mobile_container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        box-sizing: border-box;
+    .video-wrapper {
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        bottom: 0;
         max-width: 100%;
+        max-height: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+        filter: saturate(150%);
+        filter: blur(4px);
+    }
+
+
+
+    h2 {
+        color: white;
+        font-family: cursive;
+        margin-bottom: 0.2em;
+
+    }
+
+    iframe {
+        margin: 0px;
+    }
+
+    #titulo {
+        font-family: cursive;
+        color: white;
+        text-shadow: 2px 2px 10px rgb(0, 0, 0);
+    }
+
+
+    #fondo {
+        z-index: -1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #main_area {
+
+        display: flex;
+        margin: auto;
+        margin-top: 1em;
+        flex-direction: column;
+        justify-content: center;
+        width: 44%;
+
+
+    }
+
+    #titulo {
+        display: inline-block;
+        text-align: center;
+
     }
 
     .mensaje_rana {
@@ -238,86 +89,277 @@ iframe {
         background-repeat: no-repeat;
         display: inline-block;
         position: absolute;
-        top: 20%;
-        height: 60%;
-        width: 90%;
-        margin: auto;
+        height: 24em;
+        width: 24em;
+        margin-left: 35%;
+        margin-top: 10%;
         z-index: 3;
         animation-name: frog;
         animation-duration: 2s;
         animation-iteration-count: infinite;
     }
 
+    .mensaje_rana:hover {
+        cursor: url("../resources/magic-wand_big.png"), auto;
+    }
 
-    .content_container {
-        box-sizing: border-box;
-        text-align: left;
-        display: flex;
-        flex-direction: column;
-        margin: auto;
+    @keyframes frog {
+        0% {}
+
+        70% {
+            transform: scale(1.1);
+        }
+
+        100% {}
+    }
+
+    .desaparece {
+        display: none;
+    }
+
+    .mensaje_rana * {
         position: relative;
-        height: 100vh;
+        top: 50%;
+    }
 
-        width: 95%;
-        align-items: center;
-        overflow-y: scroll;
-        -ms-scroll-snap-type: y proximity;
-        scroll-snap-type: y proximity;
+    .icono_song {
+        background-image: url("../resources/song.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: relative;
+        height: 1.5em;
+        width: 1.5em;
+
+    }
+
+    .icono_imagen {
+        background-image: url("../resources/wedding-photos.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: relative;
+        height: 1.5em;
+        width: 1.5em;
+    }
+
+    .icono_stars {
+        background-image: url("../resources/sparkles.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: relative;
+        height: 1.5em;
+        width: 1.5em;
     }
 
 
-    .content_container>div {
-        padding: 1em;
-        height: 60%;
+    #musicaImagen {
+        background-image: url("../resources/ezgif-1-0e7a3e1457.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
         border-radius: 10%;
-
+        padding: 20px;
         box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.415);
+
     }
 
-    .video-wrapper {
-        z-index: -1;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        max-width: 100%;
-        max-height: 100%;
-        overflow: hidden;
-        box-sizing: border-box;
-        filter: saturate(150%);
-        filter: blur(4px);
+    #content_container {
+
+        padding: 10px;
     }
 
-    #titulo {
+    #imagenDia {
         display: flex;
-        position: relative;
-        height: 100vh;
-        align-items: center;
+        width: 35%;
+        box-sizing: border-box;
+    }
+
+    #imagenDia img {
+        width: 60%;
+
+    }
+
+    #imagenDia video {
+        width: auto;
+        height: 14em;
+        max-width: 100%;
     }
 
     #imgBkground {
 
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
         box-sizing: border-box;
         background-color: white;
         padding: 10px;
         border-radius: 18px;
-        height: 80%;
     }
 
-    #imagenDia {
-        display: flex;
-        width: 49%;
-        box-sizing: border-box;
 
-
-    }
-
-}
-
-@media only screen and (min-width: 601px) {
     #desktop_container {
-        display: block;
+        display: none;
     }
-}
+
+    #mobile_container {
+        display: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        .cubierta {
+            background-color: rgba(0, 0, 0, 0.84);
+            position: absolute;
+            width: 100%;
+            height: 500%;
+            z-index: 2;
+            backdrop-filter: blur(4px);
+            top: 0px;
+        }
+
+
+        #mobile_container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+            max-width: 100%;
+        }
+
+        .mensaje_rana {
+            text-align: center;
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: bolder;
+            background-image: url("../resources/frog.png");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            display: inline-block;
+            position: absolute;
+            top: 20%;
+            height: 60%;
+            width: 90%;
+            margin: auto;
+            z-index: 3;
+            animation-name: frog;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        #shortcuts {
+            margin-top: 2em;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        .shortcut {
+            height: 3em;
+            width: 3em;
+        }
+
+        .shortcut_focus {
+            height: 4em;
+            width: 4em;
+        }
+
+        .shortcutAnimado {
+            animation-name: shortcut_animado;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+
+
+        @keyframes shortcut_animado {
+            0% {
+                transform: rotate(-20deg);
+            }
+
+            50% {
+                transform: rotate(20deg);
+            }
+
+            100% {
+                transform: rotate(-20deg);
+            }
+        }
+
+
+
+
+        .content_container {
+            box-sizing: border-box;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            position: relative;
+            height: 100vh;
+            width: 95%;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .content_container>div {
+            padding: 1em;
+            height: 60%;
+            border-radius: 10%;
+
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.415);
+        }
+
+        .video-wrapper {
+            z-index: -1;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            max-width: 100%;
+            max-height: 100%;
+            overflow: hidden;
+            box-sizing: border-box;
+            filter: saturate(150%);
+            filter: blur(4px);
+        }
+
+        #titulo {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            height: 100vh;
+            justify-content: center;
+        }
+
+        #titulo_texto {
+            display: flex;
+            position: relative;
+            align-items: center;
+        }
+
+        #imgBkground {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            box-sizing: border-box;
+            background-color: white;
+            padding: 10px;
+            border-radius: 18px;
+            height: 80%;
+        }
+
+        #imagenDia {
+            display: flex;
+            width: 49%;
+            box-sizing: border-box;
+
+
+        }
+
+    }
+
+    @media only screen and (min-width: 601px) {
+        #desktop_container {
+            display: block;
+        }
+    }
