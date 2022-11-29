@@ -1,5 +1,5 @@
-// window.alert("Quiero hacerme viejo de besito en besito \n tu bicho");
 
+//////////////////////////////////ELEMENTOS/////////////////////////////////////
 let rana = document.getElementsByClassName("mensaje_rana")[0];
 let cubierta = document.getElementsByClassName("cubierta")[0];
 
@@ -20,24 +20,33 @@ let imagen2 = document.getElementsByClassName("imagen2");
 let tituloPoesia = document.getElementsByClassName("tituloPoesia");
 let poema = document.getElementsByClassName("poema");
 
+
+//////////////////////////CONSTANTES/////////////////////////////////////////////////////////////
+const mensaje_dia = "Quizas sea un bobo<br>pero fui listo al amarte";
+const cancion_dia = "https://open.spotify.com/embed/track/1Pze49ILAo6Ey3jG1DRfkS?utm_source=generator";
+const imagen1_dia = "dia31.jpg";
+const imagen2_dia = "dia31_2.jpg";
+const poema_autor = "A Drinking Song by W.B Yeats"
+const poema_texto = "Wine comes in at the mouth<br>And love comes in at the eye;<br>That's all we shall know for truth<br>Before we grow old and die.<br>I lift the glass to my mouth,<br>I look at you, and I sigh.";
+
 ///PARA AGREGAR CANCION E IMAGENES////////////////////////////////////////////////
 function init() {
     for (let i = 0; i < 2; i++) {
-        mensaje_rana[i].innerHTML = "Hoy no sabía bien que decir<br>asi que digo te amo."
+        mensaje_rana[i].innerHTML = mensaje_dia
 
-        songIFrame[i].setAttribute("src", "https://open.spotify.com/embed/track/5IafdoRLyaGPeeA6f8ysIe?utm_source=generator");
-        imagen1[i].setAttribute("src", "../resources/dia30.jpg");
-        imagen2[i].setAttribute("src", "../resources/dia30_2.jpg");
+        songIFrame[i].setAttribute("src", cancion_dia);
+        imagen1[i].setAttribute("src", "../resources/" + imagen1_dia);
+        imagen2[i].setAttribute("src", "../resources/" + imagen2_dia);
 
-        tituloPoesia[i].textContent = "By Rupi Kaur"
+        tituloPoesia[i].textContent = poema_autor
 
-        poema[i].innerHTML = "how you love yourself is<br>how you teach others<br>to love you"
+        poema[i].innerHTML = poema_texto
     }
 }
 init();
 
 
-/////////////////////////////////////////////////////////////////////////
+/////////////////////////////EVENT LISTENERS////////////////////////////////////////////
 
 for (const boton of document.getElementsByClassName("shortcut")) {
     boton.addEventListener("touchstart", () => {

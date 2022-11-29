@@ -69,7 +69,7 @@
         margin-top: 1em;
         flex-direction: column;
         justify-content: center;
-        width: 44%;
+        width: 55%;
 
 
     }
@@ -151,6 +151,23 @@
         position: relative;
         height: 1.5em;
         width: 1.5em;
+        animation-name: stars_light;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes stars_light {
+        0% {
+            filter: brightness(1);
+        }
+
+        50% {
+            filter: brightness(1.5);
+        }
+
+        100% {
+            filter: brightness(1);
+        }
     }
 
 
@@ -160,24 +177,28 @@
         background-size: cover;
         border-radius: 10%;
         padding: 20px;
+        height: 80vh;
         box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.415);
 
     }
 
     #content_container {
-
+        height: 80vh;
         padding: 10px;
     }
 
     #imagenDia {
         display: flex;
-        width: 35%;
+        box-sizing: content-box;
+        gap: 1em;
+        width: 60%;
         box-sizing: border-box;
     }
 
     #imagenDia img {
-        width: 60%;
-
+        border-radius: 5px;
+        max-width: 50%;
+        max-height: 100%;
     }
 
     #imagenDia video {
@@ -195,6 +216,7 @@
         background-color: white;
         padding: 10px;
         border-radius: 18px;
+
     }
 
 
