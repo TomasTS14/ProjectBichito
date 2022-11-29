@@ -170,19 +170,20 @@
         }
     }
 
-
     #musicaImagen {
         background-image: url("../resources/ezgif-1-0e7a3e1457.gif");
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 10%;
         padding: 20px;
-        height: 80vh;
+        height: 80vdh;
         box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.415);
+
 
     }
 
     #content_container {
+        box-sizing: border-box;
         padding: 10px;
     }
 
@@ -215,6 +216,8 @@
         background-color: white;
         padding: 10px;
         border-radius: 18px;
+
+
 
     }
 
