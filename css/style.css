@@ -176,29 +176,39 @@
         background-size: cover;
         border-radius: 10%;
         padding: 20px;
-        height: 80vdh;
         box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.415);
-
-
+        height: 80vh;
     }
 
     #content_container {
-        box-sizing: border-box;
+        height: 80%;
         padding: 10px;
+
+    }
+
+    #imgBkground {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: white;
+        padding: 10px;
+        border-radius: 18px;
+        height: 60%;
     }
 
     #imagenDia {
         display: flex;
-        box-sizing: content-box;
         gap: 1em;
-        width: 60%;
-        box-sizing: border-box;
+        max-width: 60%;
+        height: auto;
+
     }
 
     #imagenDia img {
         border-radius: 5px;
-        max-width: 50%;
-        max-height: 100%;
+        max-width: 100%;
+        height: auto;
     }
 
     #imagenDia video {
@@ -207,19 +217,11 @@
         max-width: 100%;
     }
 
-    #imgBkground {
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        box-sizing: border-box;
-        background-color: white;
-        padding: 10px;
-        border-radius: 18px;
-
-
-
+    .poema_div {
+        overflow: auto;
     }
+
+
 
 
     #desktop_container {
@@ -327,7 +329,7 @@
 
         .content_container>div {
             padding: 1em;
-            height: 60%;
+            height: auto;
             border-radius: 10%;
 
             box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.415);
@@ -369,7 +371,7 @@
             background-color: white;
             padding: 10px;
             border-radius: 18px;
-            height: 80%;
+            height: auto;
         }
 
         #imagenDia {

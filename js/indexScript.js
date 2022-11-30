@@ -22,12 +22,30 @@ let poema = document.getElementsByClassName("poema");
 
 
 //////////////////////////CONSTANTES/////////////////////////////////////////////////////////////
-const mensaje_dia = "Quizas sea un bobo<br>pero fui listo al amarte";
-const cancion_dia = "https://open.spotify.com/embed/track/1Pze49ILAo6Ey3jG1DRfkS?utm_source=generator";
-const imagen1_dia = "dia31.jpg";
-const imagen2_dia = "dia31_2.jpg";
+const mensaje_dia = "Mañana ya estás con Manu y Ana!<br>Espero que me ames alla también t_t<br>TE AMO INFINITO";
+const cancion_dia = "https://open.spotify.com/embed/track/0kssq1QKHwRQWNCLlL95YL?utm_source=generator";
+const imagen1_dia = "dia32.jpg";
+const imagen2_dia = "";
 const poema_autor = "A Drinking Song by W.B Yeats"
-const poema_texto = "Wine comes in at the mouth<br>And love comes in at the eye;<br>That's all we shall know for truth<br>Before we grow old and die.<br>I lift the glass to my mouth,<br>I look at you, and I sigh.";
+const poema_texto = `
+I whispered, "I am too young,<br>"
+And then, "I am old enough";<br>
+Wherefore I threw a penny<br>
+To find out if I might love.<br>
+"Go and love, go and love, young man,<br>
+If the lady be young and fair."<br>
+Ah, penny, brown penny, brown penny,<br>
+I am looped in the loops of her hair.<br>
+<br>
+
+O love is the crooked thing,<br>
+There is nobody wise enough<br>
+To find out all that is in it,<br>
+For he would be thinking of love<br>
+Till the stars had run away<br>
+And the shadows eaten the moon.<br>
+Ah, penny, brown penny, brown penny,<br>
+One cannot begin it too soon.`;
 
 ///PARA AGREGAR CANCION E IMAGENES////////////////////////////////////////////////
 function init() {
@@ -36,7 +54,9 @@ function init() {
 
         songIFrame[i].setAttribute("src", cancion_dia);
         imagen1[i].setAttribute("src", "../resources/" + imagen1_dia);
-        imagen2[i].setAttribute("src", "../resources/" + imagen2_dia);
+        if (imagen2_dia != "") {
+            imagen2[i].setAttribute("src", "../resources/" + imagen2_dia);
+        }
 
         tituloPoesia[i].textContent = poema_autor
 
