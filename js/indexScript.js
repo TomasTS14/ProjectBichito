@@ -22,30 +22,20 @@ let poema = document.getElementsByClassName("poema");
 
 
 //////////////////////////CONSTANTES/////////////////////////////////////////////////////////////
-const mensaje_dia = "Mañana ya estás con Manu y Ana!<br>Espero que me ames alla también t_t<br>TE AMO INFINITO";
-const cancion_dia = "https://open.spotify.com/embed/track/0kssq1QKHwRQWNCLlL95YL?utm_source=generator";
-const imagen1_dia = "dia32.jpg";
-const imagen2_dia = "";
+const mensaje_dia = "En Mr.Nobody, la única linea que viviría,<br>Sería en la que sales tú.<br>Ich liebe dich<br>Je t'aime<br>hou van jou";
+const cancion_dia = "https://open.spotify.com/embed/track/6YpIdggzqyZJkVTSi5Znio?utm_source=generator";
+const imagen1_dia = "dia33_1.gif";
+const imagen2_dia = "dia33_2.gif";
 const poema_autor = "A Drinking Song by W.B Yeats"
 const poema_texto = `
-I whispered, "I am too young,<br>"
-And then, "I am old enough";<br>
-Wherefore I threw a penny<br>
-To find out if I might love.<br>
-"Go and love, go and love, young man,<br>
-If the lady be young and fair."<br>
-Ah, penny, brown penny, brown penny,<br>
-I am looped in the loops of her hair.<br>
-<br>
-
-O love is the crooked thing,<br>
-There is nobody wise enough<br>
-To find out all that is in it,<br>
-For he would be thinking of love<br>
-Till the stars had run away<br>
-And the shadows eaten the moon.<br>
-Ah, penny, brown penny, brown penny,<br>
-One cannot begin it too soon.`;
+I bring you with reverent hands<br>
+The books of my numberless dreams,<br>
+White woman that passion has worn<br>
+As the tide wears the dove-grey sands,<br>
+And with heart more old than the horn<br>
+That is brimmed from the pale fire of time:<br>
+White woman with numberless dreams,<br>
+I bring you my passionate rhyme.`;
 
 ///PARA AGREGAR CANCION E IMAGENES////////////////////////////////////////////////
 function init() {

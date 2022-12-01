@@ -195,13 +195,15 @@
         padding: 10px;
         border-radius: 18px;
         height: 60%;
+        gap: 1em;
     }
 
     #imagenDia {
         display: flex;
         gap: 1em;
-        max-width: 60%;
-        height: auto;
+        width: 55%;
+        height: 100%;
+        overflow: scroll;
 
     }
 
@@ -209,6 +211,7 @@
         border-radius: 5px;
         max-width: 100%;
         height: auto;
+        aspect-ratio: auto;
     }
 
     #imagenDia video {
@@ -219,6 +222,7 @@
 
     .poema_div {
         overflow: auto;
+        width: 40%;
     }
 
 
