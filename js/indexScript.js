@@ -22,20 +22,17 @@ let poema = document.getElementsByClassName("poema");
 
 
 //////////////////////////CONSTANTES/////////////////////////////////////////////////////////////
-const mensaje_dia = "En Mr.Nobody, la única linea que viviría,<br>Sería en la que sales tú.<br>Ich liebe dich<br>Je t'aime<br>hou van jou";
-const cancion_dia = "https://open.spotify.com/embed/track/6YpIdggzqyZJkVTSi5Znio?utm_source=generator";
-const imagen1_dia = "dia33_1.gif";
-const imagen2_dia = "dia33_2.gif";
-const poema_autor = "A Drinking Song by W.B Yeats"
+const mensaje_dia = "No lo sabía, pero es que si no<br>no salen las cuentas<br> Tengo que haberte amado desde<br>el primer dia que te vi";
+const cancion_dia = "https://open.spotify.com/embed/track/2wqhEDKlvFLq4dzZOq4qSL?utm_source=generator";
+const imagen1_dia = "dia34.jpg";
+const imagen2_dia = "dia34_2.jpg";
+const poema_autor = "Something, by Stupid"
 const poema_texto = `
-I bring you with reverent hands<br>
-The books of my numberless dreams,<br>
-White woman that passion has worn<br>
-As the tide wears the dove-grey sands,<br>
-And with heart more old than the horn<br>
-That is brimmed from the pale fire of time:<br>
-White woman with numberless dreams,<br>
-I bring you my passionate rhyme.`;
+Quiero amarte con los años,<br>
+pasantes y en medio del mundo cambiante<br>
+Como dos marmotas,<br>
+cogidas de la mano<br>
+en un rio que nunca termina<br>`;
 
 ///PARA AGREGAR CANCION E IMAGENES////////////////////////////////////////////////
 function init() {
