@@ -22,17 +22,32 @@ let poema = document.getElementsByClassName("poema");
 
 
 //////////////////////////CONSTANTES/////////////////////////////////////////////////////////////
-const mensaje_dia = "No lo sabía, pero es que si no<br>no salen las cuentas<br> Tengo que haberte amado desde<br>el primer dia que te vi";
-const cancion_dia = "https://open.spotify.com/embed/track/2wqhEDKlvFLq4dzZOq4qSL?utm_source=generator";
-const imagen1_dia = "dia34.jpg";
-const imagen2_dia = "dia34_2.jpg";
-const poema_autor = "Something, by Stupid"
+const mensaje_dia = "Las ranitas croan para que<br> se les quite la acidez";
+const cancion_dia = "https://open.spotify.com/embed/track/2RUD1gvn7EcdaUy1koIq9Z?utm_source=generator";
+const imagen1_dia = "dia35.jpg";
+const imagen2_dia = "";
+const poema_autor = "Noche Del Amor Insomne de Federico García Lorca"
 const poema_texto = `
-Quiero amarte con los años,<br>
-pasantes y en medio del mundo cambiante<br>
-Como dos marmotas,<br>
-cogidas de la mano<br>
-en un rio que nunca termina<br>`;
+Noche arriba los dos con luna llena,<br>
+yo me puse a llorar y tú reías.<br>
+Tu desdén era un dios, las quejas mías<br>
+momentos y palomas en cadena.<br>
+<br>
+
+Noche abajo los dos. Cristal de pena,<br>
+llorabas tú por hondas lejanías.<br>
+Mi dolor era un grupo de agonías<br>
+sobre tu débil corazón de arena.<br>
+<br>
+
+La aurora nos unió sobre la cama,<br>
+las bocas puestas sobre el chorro helado<br>
+de una sangre sin fin que se derrama.<br>
+<br>
+
+Y el sol entró por el balcón cerrado<br>
+y el coral de la vida abrió su rama<br>
+sobre mi corazón amortajado.`;
 
 ///PARA AGREGAR CANCION E IMAGENES////////////////////////////////////////////////
 function init() {
