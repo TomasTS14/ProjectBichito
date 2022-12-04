@@ -22,32 +22,28 @@ let poema = document.getElementsByClassName("poema");
 
 
 //////////////////////////CONSTANTES/////////////////////////////////////////////////////////////
-const mensaje_dia = "Las ranitas croan para que<br> se les quite la acidez";
-const cancion_dia = "https://open.spotify.com/embed/track/2RUD1gvn7EcdaUy1koIq9Z?utm_source=generator";
-const imagen1_dia = "dia35.jpg";
-const imagen2_dia = "";
-const poema_autor = "Noche Del Amor Insomne de Federico García Lorca"
+const mensaje_dia = "Para mi chica, la psiconauta con el pelo de fuego.";
+const cancion_dia = "https://open.spotify.com/embed/track/6XPYPchsGj40NxVLe3m7AM?utm_source=generator";
+const imagen1_dia = "dia36_trippy3.jpg";
+const imagen2_dia = "dia36_2.jpg";
+const poema_autor = "La luna asoma de Federico García Lorca"
 const poema_texto = `
-Noche arriba los dos con luna llena,<br>
-yo me puse a llorar y tú reías.<br>
-Tu desdén era un dios, las quejas mías<br>
-momentos y palomas en cadena.<br>
-<br>
-
-Noche abajo los dos. Cristal de pena,<br>
-llorabas tú por hondas lejanías.<br>
-Mi dolor era un grupo de agonías<br>
-sobre tu débil corazón de arena.<br>
-<br>
-
-La aurora nos unió sobre la cama,<br>
-las bocas puestas sobre el chorro helado<br>
-de una sangre sin fin que se derrama.<br>
-<br>
-
-Y el sol entró por el balcón cerrado<br>
-y el coral de la vida abrió su rama<br>
-sobre mi corazón amortajado.`;
+Cuando sale la luna<br>
+se pierden las campanas<br>
+y aparecen las sendas<br>
+impenetrables.<br>
+Cuando sale la luna,<br>
+el mar cubre la tierra<br>
+y el corazón se siente<br>
+isla en el infinito.<br>
+Nadie come naranjas<br>
+bajo la luna llena.<br>
+Es preciso comer<br>
+fruta verde y helada.<br>
+Cuando sale la luna<br>
+de cien rostros iguales,<br>
+la moneda de plata<br>
+solloza en el bolsillo.`;
 
 ///PARA AGREGAR CANCION E IMAGENES////////////////////////////////////////////////
 function init() {
