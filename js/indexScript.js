@@ -22,28 +22,38 @@ let poema = document.getElementsByClassName("poema");
 
 
 //////////////////////////CONSTANTES/////////////////////////////////////////////////////////////
-const mensaje_dia = "Para mi chica, la psiconauta con el pelo de fuego.";
-const cancion_dia = "https://open.spotify.com/embed/track/6XPYPchsGj40NxVLe3m7AM?utm_source=generator";
-const imagen1_dia = "dia36_trippy3.jpg";
-const imagen2_dia = "dia36_2.jpg";
-const poema_autor = "La luna asoma de Federico García Lorca"
+const mensaje_dia = "Si mi corazon es una casa, tu eres la chimenea, el sofa <br> y velas en el atardecer";
+const cancion_dia = "https://open.spotify.com/embed/track/2ITBElDqs9w9TrsfRWsZFR?utm_source=generator";
+const imagen1_dia = "dia37_1.jpg";
+const imagen2_dia = "dia37_2.jpg";
+const poema_autor = "Home And Love by Robert William Service"
 const poema_texto = `
-Cuando sale la luna<br>
-se pierden las campanas<br>
-y aparecen las sendas<br>
-impenetrables.<br>
-Cuando sale la luna,<br>
-el mar cubre la tierra<br>
-y el corazón se siente<br>
-isla en el infinito.<br>
-Nadie come naranjas<br>
-bajo la luna llena.<br>
-Es preciso comer<br>
-fruta verde y helada.<br>
-Cuando sale la luna<br>
-de cien rostros iguales,<br>
-la moneda de plata<br>
-solloza en el bolsillo.`;
+Just Home and Love! the words are small<br>
+Four little letters unto each;<br>
+And yet you will not find in all<br>
+The wide and gracious range of speech<br>
+Two more so tenderly complete:<br>
+When angels talk in Heaven above,<br>
+I'm sure they have no words more sweet<br>
+Than Home and Love.<br>
+<br>
+Just Home and Love! it's hard to guess<br>
+Which of the two were best to gain;<br>
+Home without Love is bitterness;<br>
+Love without Home is often pain.<br>
+No! each alone will seldom do;<br>
+Somehow they travel hand and glove:<br>
+If you win one you must have two,<br>
+Both Home and Love.<br>
+<br>
+And if you've both, well then I'm sure<br>
+You ought to sing the whole day long;<br>
+It doesn't matter if you're poor<br>
+With these to make divine your song.<br>
+And so I praisefully repeat,<br>
+When angels talk in Heaven above,<br>
+There are no words more simply sweet<br>
+Than Home and Love.`;
 
 ///PARA AGREGAR CANCION E IMAGENES////////////////////////////////////////////////
 function init() {
