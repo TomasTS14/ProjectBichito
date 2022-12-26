@@ -22,38 +22,55 @@ let poema = document.getElementsByClassName("poema");
 
 
 //////////////////////////CONSTANTES/////////////////////////////////////////////////////////////
-const mensaje_dia = "Si mi corazon es una casa, tu eres la chimenea, el sofa <br> y velas en el atardecer";
-const cancion_dia = "https://open.spotify.com/embed/track/2ITBElDqs9w9TrsfRWsZFR?utm_source=generator";
-const imagen1_dia = "dia37_1.jpg";
-const imagen2_dia = "dia37_2.jpg";
-const poema_autor = "Home And Love by Robert William Service"
+const mensaje_dia = "Si pudiese pedir absolutamente cualquier regalo<br> te pediría a ti.";
+const cancion_dia = "https://open.spotify.com/embed/track/6taNQNGdyo6PN4DPlYFf08?utm_source=generator";
+const imagen1_dia = "dia38.jpg";
+const imagen2_dia = "dia38_2.jpg";
+const poema_autor = "Bird Understander by Craig Arnold"
 const poema_texto = `
-Just Home and Love! the words are small<br>
-Four little letters unto each;<br>
-And yet you will not find in all<br>
-The wide and gracious range of speech<br>
-Two more so tenderly complete:<br>
-When angels talk in Heaven above,<br>
-I'm sure they have no words more sweet<br>
-Than Home and Love.<br>
-<br>
-Just Home and Love! it's hard to guess<br>
-Which of the two were best to gain;<br>
-Home without Love is bitterness;<br>
-Love without Home is often pain.<br>
-No! each alone will seldom do;<br>
-Somehow they travel hand and glove:<br>
-If you win one you must have two,<br>
-Both Home and Love.<br>
-<br>
-And if you've both, well then I'm sure<br>
-You ought to sing the whole day long;<br>
-It doesn't matter if you're poor<br>
-With these to make divine your song.<br>
-And so I praisefully repeat,<br>
-When angels talk in Heaven above,<br>
-There are no words more simply sweet<br>
-Than Home and Love.`;
+Of many reasons I love you here is one<br><br>
+
+the way you write me from the gate at the airport<br>
+so I can tell you everything will be alright<br><br>
+
+so you can tell me there is a bird<br>
+trapped in the terminal      all the people<br>
+ignoring it       because they do not know<br>
+what to do with it       except to leave it alone<br>
+until it scares itself to death<br><br>
+
+it makes you terribly terribly sad<br><br>
+
+You wish you could take the bird outside<br>
+and set it free or       (failing that)<br>
+call a bird-understander<br>
+to come help the bird<br><br>
+
+All you can do is notice the bird<br>
+and feel for the bird       and write<br>
+to tell me how language feels<br>
+impossibly useless<br><br>
+
+but you are wrong<br><br>
+
+You are a bird-understander<br>
+better than I could ever be<br>
+who make so many noises<br>
+and call them song<br>
+
+These are your own words<br>
+your way of noticing<br>
+and saying plainly<br>
+of not turning away<br>
+from hurt<br><br>
+
+you have offered them<br>
+to me       I am only<br>
+giving them back<br><br>
+
+if only I could show you<br>
+how very useless<br>
+they are not`;
 
 ///PARA AGREGAR CANCION E IMAGENES////////////////////////////////////////////////
 function init() {
