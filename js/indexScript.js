@@ -22,55 +22,24 @@ let poema = document.getElementsByClassName("poema");
 
 
 //////////////////////////CONSTANTES/////////////////////////////////////////////////////////////
-const mensaje_dia = "Si pudiese pedir absolutamente cualquier regalo<br> te pediría a ti.";
-const cancion_dia = "https://open.spotify.com/embed/track/6taNQNGdyo6PN4DPlYFf08?utm_source=generator";
-const imagen1_dia = "dia38.jpg";
-const imagen2_dia = "dia38_2.jpg";
-const poema_autor = "Bird Understander by Craig Arnold"
+const mensaje_dia = "Por nuevos comienzos";
+const cancion_dia = "https://open.spotify.com/embed/track/2RLm6OrnjLuoyQEowCJ6QE?utm_source=generator";
+
+// const imagenes = []
+// for (let i = 1; i < 102; i++) {
+//     imagenes.push("dia39_(" + i + ").jpg")
+// }
+const poema_autor = "May Night by Sara Teasdale"
 const poema_texto = `
-Of many reasons I love you here is one<br><br>
-
-the way you write me from the gate at the airport<br>
-so I can tell you everything will be alright<br><br>
-
-so you can tell me there is a bird<br>
-trapped in the terminal      all the people<br>
-ignoring it       because they do not know<br>
-what to do with it       except to leave it alone<br>
-until it scares itself to death<br><br>
-
-it makes you terribly terribly sad<br><br>
-
-You wish you could take the bird outside<br>
-and set it free or       (failing that)<br>
-call a bird-understander<br>
-to come help the bird<br><br>
-
-All you can do is notice the bird<br>
-and feel for the bird       and write<br>
-to tell me how language feels<br>
-impossibly useless<br><br>
-
-but you are wrong<br><br>
-
-You are a bird-understander<br>
-better than I could ever be<br>
-who make so many noises<br>
-and call them song<br>
-
-These are your own words<br>
-your way of noticing<br>
-and saying plainly<br>
-of not turning away<br>
-from hurt<br><br>
-
-you have offered them<br>
-to me       I am only<br>
-giving them back<br><br>
-
-if only I could show you<br>
-how very useless<br>
-they are not`;
+The spring is fresh and fearless<br>
+And every leaf is new,<br>
+The world is brimmed with moonlight,<br>
+The lilac brimmed with dew.<br>
+<br>
+Here in the moving shadows<br>
+I catch my breath and sing,<br>
+My heart is fresh and fearless<br>
+And over-brimmed with spring.`
 
 ///PARA AGREGAR CANCION E IMAGENES////////////////////////////////////////////////
 function init() {
@@ -78,10 +47,16 @@ function init() {
         mensaje_rana[i].innerHTML = mensaje_dia
 
         songIFrame[i].setAttribute("src", cancion_dia);
-        imagen1[i].setAttribute("src", "../resources/" + imagen1_dia);
-        if (imagen2_dia != "") {
-            imagen2[i].setAttribute("src", "../resources/" + imagen2_dia);
-        }
+        // const imagenDiaWrapper = document.querySelectorAll(".imagenDia")[i]
+
+        // imagenes.forEach(imagenUrl => {
+
+        //     const img = document.createElement("img");
+        //     img.setAttribute("src", "../resources/" + imagenUrl);
+
+        //     imagenDiaWrapper.append(img);
+
+        // })
 
         tituloPoesia[i].textContent = poema_autor
 
