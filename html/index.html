@@ -14,72 +14,77 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
     <script src="../js/indexScript.js" defer></script>
-    
+
 </head>
 
 <body>
     <div id="desktop_container">
-    <!--<img id="fondo" src="/resources/1663623401637.jpg">-->
-    <div class="video-wrapper">
-        <video playsinline autoplay muted loop >
-            <source src="../resources/minecraft-fancy-center-HD-live-wallpaper.mp4  " type="video/webm">
+        <!--<img id="fondo" src="/resources/1663623401637.jpg">-->
+        <div class="video-wrapper">
+            <video playsinline autoplay muted loop>
+                <source src="../resources/minecraft-fancy-center-HD-live-wallpaper.mp4  " type="video/webm">
 
-        </video>
-    </div>
-    <div class="mensaje_rana"><p class="mensaje_rana_texto"></p></div>
-    <div id="main_area">
-        <h1 id="titulo"><span class="icono_stars"></span> In the pursuit of bichito<span class="icono_stars"></span> </h1>
-        <div id="musicaImagen">
-            <div id="content_container">
-                <h2><span class="icono_song"></span> Today's song:</h2>
-                <iframe style="border-radius:12px"
-                    src="" height="30%"
-                    width="80%" frameBorder="0" 
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"></iframe>
+            </video>
+        </div>
+        <div class="mensaje_rana">
+            <p class="mensaje_rana_texto"></p>
+        </div>
+        <div id="main_area">
+            <h1 id="titulo"><span class="icono_stars"></span> In the pursuit of bichito<span class="icono_stars"></span>
+            </h1>
+            <div id="musicaImagen">
+                <div id="content_container">
+                    <h2><span class="icono_song"></span> Today's song:</h2>
+                    <iframe style="border-radius:12px" src="" height="30%" width="80%" frameBorder="0"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
 
-                <h2><span class="icono_imagen"></span> Today's picture:</h2>
-                <div id="imgBkground">
-                    <div id="imagenDia">
-                        
-                        <video id="dailyVideoOptional" controls>
+                    <h2><span class="icono_imagen"></span> Today's picture:</h2>
+                    <div id="imgBkground">
+                        <div id="imagenDia">
+                            <img class="imagen1" src="">
+                            <img class="imagen2" src="">
+                            <!-- <video id="dailyVideoOptional" controls>
                             <source src="../resources/fin_erasmus/fineramus2.mp4" type="video/mp4">
-                        </video> 
-                        <!-- <script>
+                        </video>  -->
+                            <!-- <script>
                             let video = document.getElementById("dailyVideoOptional");
                             video.playbackRate = 0.5;
                         </script> -->
 
+                        </div>
+                        <div class="poema_div">
+                            <strong class="tituloPoesia"> </strong>
+                            <br>
+                            <i class="poema">
+
+                            </i>
+                        </div>
                     </div>
-                    <div class="poema_div">
-                        <strong class="tituloPoesia"> </strong>
-                        <br>
-                        <i class="poema">
-               
-                        </i>
-                    </div>
+                    <h4 style="color:white; font-family: cursive ;">
+
+                    </h4>
+
                 </div>
-                <h4 style="color:white; font-family: cursive ;">
-
-                </h4>
-
             </div>
         </div>
+        <div class="cubierta"></div>
     </div>
-    <div class="cubierta"></div>
-</div>
-<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<div id="mobile_container">
-    <div class="video-wrapper">
-        <video playsinline autoplay muted loop >
-            <source src="../resources/minecraft-fancy-center-HD-live-wallpaper.mp4  " type="video/webm">
-        </video>
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <div id="mobile_container">
+        <div class="video-wrapper">
+            <video playsinline autoplay muted loop>
+                <source src="../resources/minecraft-fancy-center-HD-live-wallpaper.mp4  " type="video/webm">
+            </video>
         </div>
-        <div class="mensaje_rana"><p class="mensaje_rana_texto"></p></div>
+        <div class="mensaje_rana">
+            <p class="mensaje_rana_texto"></p>
+        </div>
         <div id="titulo">
             <div>
-            <h1 id="titulo_texto"><span class="icono_stars"></span> In the pursuit of bichito<span class="icono_stars"></span> </h1>
+                <h1 id="titulo_texto"><span class="icono_stars"></span> In the pursuit of bichito<span
+                        class="icono_stars"></span> </h1>
             </div>
             <div id="shortcuts">
                 <span class="icono_song shortcut shortcutAnimado"></span>
@@ -88,42 +93,40 @@
         </div>
         <div class="content_container">
             <div>
-            <h2><span class="icono_song"></span> Today's song:</h2>
-            <iframe style="border-radius:12px"
-                src="" height="30%"
-                width="80%" frameBorder="0" 
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
+                <h2><span class="icono_song"></span> Today's song:</h2>
+                <iframe style="border-radius:12px" src="" height="30%" width="80%" frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
             </div>
         </div>
         <div class="content_container">
             <div>
-            <h2><span class="icono_imagen"></span> Today's picture:</h2>
-            <div id="imgBkground">
-                <div id="imagenDia">
-                    <!-- <img class="imagen1" src="">
-                    <img class="imagen2"src=""> -->
-                     <video controls>
+                <h2><span class="icono_imagen"></span> Today's picture:</h2>
+                <div id="imgBkground">
+                    <div id="imagenDia">
+                        <img class="imagen1" src="">
+                        <img class="imagen2" src="">
+                        <!-- <video controls>
                         <source src="../resources/fin_erasmus/fineramus2.mp4" type="video/mp4">
-                    </video>
-                    <!-- <script>
+                    </video> -->
+                        <!-- <script>
                         let video = document.getElementById("dailyVideoOptional");
                         video.playbackRate = 0.5;
                     </script> -->
 
-                </div>
-                <div>
-                    <strong class="tituloPoesia"> </strong>
-                    <br>
-                    <i class="poema">
-                    </i>
+                    </div>
+                    <div>
+                        <strong class="tituloPoesia"> </strong>
+                        <br>
+                        <i class="poema">
+                        </i>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
         <div class="cubierta"></div>
     </div>
-    
+
 
 </body>
 

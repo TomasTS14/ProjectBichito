@@ -22,24 +22,26 @@ let poema = document.getElementsByClassName("poema");
 
 
 //////////////////////////CONSTANTES/////////////////////////////////////////////////////////////
-const mensaje_dia = "Por nuevos comienzos";
-const cancion_dia = "https://open.spotify.com/embed/track/2RLm6OrnjLuoyQEowCJ6QE?utm_source=generator";
+const mensaje_dia = "Everybody makes mistakes";
+const cancion_dia = "https://open.spotify.com/embed/track/7q8N0fBChbguWQW7BjlgvJ?utm_source=generato";
 
-// const imagenes = []
-// for (let i = 1; i < 102; i++) {
-//     imagenes.push("dia39_(" + i + ").jpg")
-// }
-const poema_autor = "May Night by Sara Teasdale"
+const imagen1_dia = "dia40_(1).jpg";
+const imagen2_dia = "dia40_(2).jpg";
+
+const poema_autor = "Selected Poems by Derek Mahon"
 const poema_texto = `
-The spring is fresh and fearless<br>
-And every leaf is new,<br>
-The world is brimmed with moonlight,<br>
-The lilac brimmed with dew.<br>
-<br>
-Here in the moving shadows<br>
-I catch my breath and sing,<br>
-My heart is fresh and fearless<br>
-And over-brimmed with spring.`
+How should I not be glad to contemplate<br>
+the clouds clearing beyond the dormer window<br>
+and a high tide reflected on the ceiling?<br>
+There will be dying, there will be dying,<br>
+but there is no need to go into that.<br><br>
+The poems flow from the hand unbidden<br>
+and the hidden source is the watchful heart.<br>
+The sun rises in spite of everything<br>
+and the far cities are beautiful and bright.<br>
+I lie here in a riot of sunlight<br>
+watching the day break and the clouds flying.<br>
+Everything is going to be all right.`
 
 ///PARA AGREGAR CANCION E IMAGENES////////////////////////////////////////////////
 function init() {
@@ -47,16 +49,10 @@ function init() {
         mensaje_rana[i].innerHTML = mensaje_dia
 
         songIFrame[i].setAttribute("src", cancion_dia);
-        // const imagenDiaWrapper = document.querySelectorAll(".imagenDia")[i]
-
-        // imagenes.forEach(imagenUrl => {
-
-        //     const img = document.createElement("img");
-        //     img.setAttribute("src", "../resources/" + imagenUrl);
-
-        //     imagenDiaWrapper.append(img);
-
-        // })
+        imagen1[i].setAttribute("src", "../resources/" + imagen1_dia);
+        if (imagen2_dia != "") {
+            imagen2[i].setAttribute("src", "../resources/" + imagen2_dia);
+        }
 
         tituloPoesia[i].textContent = poema_autor
 
