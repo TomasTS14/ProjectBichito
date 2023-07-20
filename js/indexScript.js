@@ -28,7 +28,7 @@ const cancion_dia = "https://open.spotify.com/embed/track/6qRmb4uhIUaWE5LySgSfQS
 const imagen1_dia = "dia41.jpg";
 const imagen2_dia = "";
 
-const poema_autor = "I carry your heart with meby E.E Cummings"
+const poema_autor = "I carry your heart with me by E.E Cummings"
 const poema_texto = `
 i carry your heart with me(i carry it in
     my heart)i am never without it(anywhere
