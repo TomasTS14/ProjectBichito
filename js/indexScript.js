@@ -22,26 +22,32 @@ let poema = document.getElementsByClassName("poema");
 
 
 //////////////////////////CONSTANTES/////////////////////////////////////////////////////////////
-const mensaje_dia = "Everybody makes mistakes";
-const cancion_dia = "https://open.spotify.com/embed/track/7q8N0fBChbguWQW7BjlgvJ?utm_source=generato";
+const mensaje_dia = "Para mi chica viendo Starlink. Te amo";
+const cancion_dia = "https://open.spotify.com/embed/track/6qRmb4uhIUaWE5LySgSfQS?utm_source=generator";
 
-const imagen1_dia = "dia40_(1).jpg";
-const imagen2_dia = "dia40_(2).jpg";
+const imagen1_dia = "dia41.jpg";
+const imagen2_dia = "";
 
-const poema_autor = "Selected Poems by Derek Mahon"
+const poema_autor = "I carry your heart with meby E.E Cummings"
 const poema_texto = `
-How should I not be glad to contemplate<br>
-the clouds clearing beyond the dormer window<br>
-and a high tide reflected on the ceiling?<br>
-There will be dying, there will be dying,<br>
-but there is no need to go into that.<br><br>
-The poems flow from the hand unbidden<br>
-and the hidden source is the watchful heart.<br>
-The sun rises in spite of everything<br>
-and the far cities are beautiful and bright.<br>
-I lie here in a riot of sunlight<br>
-watching the day break and the clouds flying.<br>
-Everything is going to be all right.`
+i carry your heart with me(i carry it in
+    my heart)i am never without it(anywhere
+    i go you go,my dear;and whatever is done
+    by only me is your doing,my darling)
+        <br>                                                  
+    i fear no fate(for you are my fate,my sweet)i want
+    no world(for beautiful you are my world,my true)
+    and it’s you are whatever a moon has always meant
+    and whatever a sun will always sing is you
+    <br>
+    here is the deepest secret nobody knows
+    (here is the root of the root and the bud of the bud
+    and the sky of the sky of a tree called life;which grows
+    higher than soul can hope or mind can hide)
+    and this is the wonder that's keeping the stars apart
+    <br>
+    i carry your heart(i carry it in my heart)
+`
 
 ///PARA AGREGAR CANCION E IMAGENES////////////////////////////////////////////////
 function init() {
